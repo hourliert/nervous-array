@@ -1,0 +1,10 @@
+.settings/launch.json
+.DS_Store
+.tmp
+tmp
+node_modules
+build
+typings
+lib/**/*.js
+test/**/*.js
+examples/**/*.js
