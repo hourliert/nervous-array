@@ -9,4 +9,5 @@ declare module 'nervous-array' {
   export function sub(...arrays: number[][]): Array<number>;
   export function multiply(...arrays: number[][]): Array<number>;
   export function multiplyByScalar(a1: Array<number>, scalar: number): Array<number>;
+  export function shuffle (array: Array<number>): Array<number>;
 }
