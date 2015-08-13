@@ -102,7 +102,7 @@ export function multiplyByScalar (a1: Array<number>, scalar: number): Array<numb
   return ret;
 }
 
-export function shuffle (array: Array<number>): Array<number> {
+export function shuffle<T> (array: Array<T>): Array<T> {
   for (let i = array.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     let temp = array[i];
