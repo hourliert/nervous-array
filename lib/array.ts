@@ -5,13 +5,13 @@ export function zeros (size: number): Array<number> {
 export function sum (a1: Array<number>): number {
   return a1.reduce((a, b) => {
     return a + b;
-  });
+  }, 0);
 }
 
 export function squareSum (a1: Array<number>): number {
   return a1.reduce((a, b) => {
     return a + Math.pow(b, 2);
-  });
+  }, 0);
 }
 
 export function mean (a1: Array<number>): number {
