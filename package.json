@@ -1,6 +1,6 @@
 {
   "name": "nervous-array",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A tiny array library used by Nervous.",
   "main": "index.js",
   "directories": {
